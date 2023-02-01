@@ -2,7 +2,7 @@ import { Client, Routes, REST, GatewayIntentBits } from "discord.js";
 import mongoose from "mongoose";
 import fs from "fs";
 
-const token = "MTA2NjA4ODAyNzkxNjYwMzQ5Mg.Gr4p4M.rWU00GtHKIxyNpInk5twVA37S1mjiv2iqN5nko";
+const token = "token";
 const client = new Client({
     intents: [ GatewayIntentBits.Guilds, GatewayIntentBits.GuildMembers, GatewayIntentBits.Guilds ] 
 });
