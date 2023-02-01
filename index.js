@@ -46,7 +46,7 @@ client.on("ready", async (message) => {
 
     mongoose.set("strictQuery", false);
 
-    await mongoose.connect("mongodb+srv://Playdayer:xD_haha@cluster0.9z53wc4.mongodb.net/?retryWrites=true&w=majority", {
+    await mongoose.connect("mongodb+srv://Playdayer:<Password>@cluster0.9z53wc4.mongodb.net/?retryWrites=true&w=majority", {
         keepAlive: true
     })
     .then(() => console.log("Info | MongoDB has been connected"))
